@@ -1,0 +1,23 @@
+body {
+    background: url("../../Images/indexBackground.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+}
+h1{
+    text-align: center;
+}
+
+#reponses,.hidden,#r{
+    display: none;
+}
+
+a{
+    border: 3px solid grey;
+    border-radius: 3%;
+    margin-top: 10px;
+    font: small-caps bold 24px/1 sans-serif;
+    height: 70px;
+    background-color:rgb(240, 248, 255);
+}
+div#resume{
+    float:right;
+}

@@ -1,0 +1,62 @@
+p {
+    padding-left: 10px;
+    font: 24px/1 sans-serif;
+}
+
+.minecraftBackground {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content{
+    border: 2px solid black;
+    border-radius: 2%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+a {
+    height: 30px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.57);
+    color: white;
+    font: small-caps bold 24px/1 sans-serif;
+    padding: 5px;
+}
+
+ul.link_nav{
+    padding-top: 300px;
+    padding-right: 10px;
+    padding-left: 0;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hover-title {
+    text-decoration: underline;
+    font-size: 24px;
+    color: blueviolet;
+}
+    
+.hover-image {
+    display: none;
+    width: 400px;
+}
+body:not(.mobile) .hover-title:hover + .hover-image {
+    display: initial;
+}
+
+.hover-image img {
+    max-width: 10%;
+    max-height: 10%;
+}

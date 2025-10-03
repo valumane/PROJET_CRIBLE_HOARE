@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+
+    <link rel="alternate stylesheet" title="AlternativStyle" href="../../Styles/AlternativStyles/AltStyle.css" />
+    <link rel="stylesheet" title="normal" href="../../Styles/NormalStyles/formulaireStyle.css" />
+
+    <script src="../../Javascript/formulaire.js"> </script>
+    <script src="../../Javascript/swapStyle.js"> </script>
+
+
+
+    <link rel="icon" type="image/png" href="../../Images/IconForms.jpg" />
+
+
+
+</head>
+<body>
+<h1>Formulaire</h1>
+<button class="button" onclick="swap()"> changer de style</button>
+
+<p> je vous propose un petit questionnaire, suivi d'un espace pour y laisser votre nom accompagné d'un petit message si vous avez envie (facultatif)</p>
+<form action=http://voca2.univ-poitiers.fr/~subrenat/cours_web/traitement.php? method="post">
+    <fieldset>
+        <legend>combien il y a t-il de licence de jeux videos dans ce top ?</legend>
+        <p>10   15    2</p>
+
+        <label for="q1"></label>
+        <input name="question 1" id="q1" value="">
+
+        <p class="hidden"> entrez une reponse s'il vous plait</p>
+
+    </fieldset>
+
+    <fieldset>
+
+    <legend>quel est la premiere licence de jeux vidéos dans ce top ?</legend>
+        <p>Tetris, les Sims ou Mario ?</p>
+
+        <label for="q2"></label>
+        <input name="question 2" id="q2" value="">
+
+        <p class="hidden"> entrez une reponses s'il vous plait</p>
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>de quel jeu est tiré cet image ?</legend>
+        <img alt="imgquizz" src="../../Images/imgquizz.png" style="width: 200px"/>
+
+        <p>Call Of Duty, Tetris ou Pokemon ?</p>
+
+        <label for="q3"></label>
+        <input name="question 3" id="q3" value="">
+
+        <p class="hidden"> entrez une reponses s'il vous plait</p>
+
+    </fieldset>
+
+
+    <div id="resume" style="display: none">
+        <h2> resumer de vos reponses</h2>
+        <p>combien il y a t'il de licence de jeux videos dans ce top ?</p>
+        <input id="qe1" value="" > <br/>
+        <p>quel la premiere licence de ce top ?</p>
+        <input id="qe2" value=""> <br/>
+        <p>a quel jeu represente cet image ?</p>
+        <input id="qe3" value=""> <br/>
+
+    </div>
+
+
+<div>
+
+<h2>zone de saisie pour dire ce que vous avez penser du site</h2>
+    <label for="name">votre nom ?</label>
+    <input name="nom" type=text id="name" value="">
+    <br/>
+
+    <label for="surname">votre prenom ?</label>
+    <input name="prenom" type=text id="surname" value="">
+
+    <br/>
+    <label for="txt">votre avis</label>
+    <textarea name="story"
+              rows="5" cols="33" id="txt">
+</textarea>
+
+    <img id="r" alt="r" src="../../Images/quizr.png"/>
+
+<div>
+    <button onclick="erase()" type="reset"> Effacer</button>
+    <button onclick="checkAllTest()" type="button" > Vérifier </button>
+    <button id="reponses" type="button" onclick=ViewReponse() style="display: none"> regarder les reponses </button>
+    <button id="resreponse" type="button" onclick=resume();viewResumer() style="display: none"> resumé de vos reponses </button>
+    <input id="envoie" type="submit" value="Envoyer le formulaire" style="display: none">
+
+</div>
+</div>
+</form>
+
+
+
+<br/>
+
+
+
+<a href="../../index.html">revenir a la page principale</a>
+
+</body>
+
+
+</html>

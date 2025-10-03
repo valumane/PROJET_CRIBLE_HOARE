@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+
+<head>
+    <title>[ sitemap ]</title>
+
+    <meta charset="utf-8" />
+    <link rel="alternate stylesheet" title="AlternativForms" href="../../Styles/AlternativStyles/AltStyle.css" />
+    <link rel="stylesheet" title="normal" href="../../Styles/NormalStyles/sitemapStyle.css" />
+
+    <script src="../../Javascript/swapStyle.js"> </script>
+    <script src="../../Javascript/ImgLoader.js"> </script>
+
+</head>
+
+
+<body>
+    <h1 id="sitemap"> sitemap </h1>
+    <button class="button" onclick="swap()"> changer de style</button>
+    <button onclick="chargeall()"> afficher / cacher toutes les images</button>
+    <button onclick="sizeAll()"> aggrandir / reduire toutes les images</button>
+    <p>Cliquer sur une image pour l'agrandir / diminué</p>
+
+    <ol>
+        <li >  <a href="../../Content/Collection/mario.xhtml" > mario  </a> <button onclick="chargeImg(0)"> afficher / cacher </button>  </li>
+        <li >  <a href="../../Content/Collection/tetris.xhtml" > tetris  </a>  <button onclick="chargeImg(1)"> afficher / cacher </button></li>
+        <li >  <a href="../../Content/Collection/cod.xhtml" > call of duty  </a>  <button onclick="chargeImg(2)" > afficher / cacher </button></li>
+        <li >  <a href="../../Content/Collection/pokemon.xhtml"> pokemon  </a>  <button onclick="chargeImg(3)"> afficher / cacher </button></li>
+        <li >  <a href="../../Content/Collection/grand_theft_auto.xhtml"> grand theft auto  </a>  <button onclick="chargeImg(4)"> afficher / cacher </button></li>
+        <li >  <a href="../../Content/Collection/fifa.xhtml"> fifa  </a>  <button onclick="chargeImg(5)"> afficher / cacher </button></li>
+        <li >  <a href="../../Content/Collection/minecraft.xhtml"> minecraft  </a>  <button onclick="chargeImg(6)"> afficher / cacher </button></li>
+        <li >  <a href="../../Content/Collection/sims.xhtml"> The sims  </a>  <button onclick="chargeImg(7)"> afficher / cacher </button></li>
+        <li >  <a href="../../Content/Collection/wii.xhtml" > wii  </a> <button onclick="chargeImg(8)"> afficher / cacher </button></li>
+        <li >  <a href="../../Content/Collection/final_fantasy.xhtml" >  final fantasy </a>  <button  onclick="chargeImg(9)"> afficher / cacher </button></li>
+    </ol>
+    <div class="image">
+        <img onclick="size(0)" class="img" src="../../Images/ScreenContent/ScreenMario.PNG" alt="mario" style="display: none; width: 100px"/>
+        <img onclick="size(1)" class="img" src="../../Images/ScreenContent/ScreenTetris.PNG" alt="tetris" style="display: none; width: 100px"/>
+        <img onclick="size(2)" class="img" src="../../Images/ScreenContent/ScreenCod.PNG" alt="cod" style="display: none; width: 100px"/>
+        <img onclick="size(3)" class="img" src="../../Images/ScreenContent/ScreenPokemon.PNG" alt="pokemon" style="display: none; width: 100px"/>
+        <img onclick="size(4)" class="img" src="../../Images/ScreenContent/ScreenGta.PNG" alt="gta" style="display: none; width: 100px"/>
+        <img onclick="size(5)" class="img" src="../../Images/ScreenContent/ScreenFifa.PNG" alt="fifa" style="display: none; width: 100px"/>
+        <img onclick="size(6)" class="img" src="../../Images/ScreenContent/ScreenMc.PNG" alt="minecraft" style="display: none; width: 100px"/>
+        <img onclick="size(7)" class="img" src="../../Images/ScreenContent/ScreenSims.PNG" alt="sims" style="display: none; width: 100px"/>
+        <img onclick="size(8)" class="img" src="../../Images/ScreenContent/ScreenWii.PNG" alt="wii" style="display: none; width: 100px"/>
+        <img onclick="size(9)" class="img" src="../../Images/ScreenContent/ScreenFf.PNG" alt="final fantasy" style="display: none; width: 100px"/>
+    </div>
+
+    <br/>
+
+<br/>
+    <ul class="sitemapListe">
+        <li> <a href="../../index.html"> menu principale </a>  <button onclick="chargeImg(10)"> afficher / cacher </button> </li>
+        <li> <a href="sitemap.xhtml" > site map</a>  <button onclick="chargeImg(11)"> afficher / cacher </button> </li>
+        <li> <a href="synoptic.xhtml"> synoptic </a> <button onclick="chargeImg(12)"> afficher / cacher </button> </li>
+        <li> <a href="../Forms/formulaire.html"> Formulaire</a>  <button onclick="chargeImg(13)"> afficher / cacher </button> </li>
+    </ul>
+
+
+
+<div class="image">
+    <img onclick="size(10)" class="img" src="../../Images/ScreenContent/ScreenIndex.png" alt="index" style="display: none; width: 100px"/>
+    <img onclick="size(11)" class="img" src="../../Images/ScreenContent/ScreenSitemap.png" alt="index" style="display: none; width: 100px"/>
+    <img onclick="size(12)" class="img" src="../../Images/ScreenContent/ScreenSynoptc.png" alt="index" style="display: none; width: 100px"/>
+    <img onclick="size(13)" class="img" src="../../Images/ScreenContent/ScreenForms.png" alt="index" style="display: none; width: 100px"/>
+
+</div>
+</body>
+
+</html>

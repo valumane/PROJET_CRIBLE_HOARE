@@ -1,0 +1,27 @@
+body {
+    background: url("../../Images/indexBackground.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+}   
+
+ol{
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+ul.sitemapListe{
+    margin-top: -20px;
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+p {
+    font: 24px/1 sans-serif;
+}
+
+h1#sitemap {
+    font-size: 40px;
+    color : #6c0808;
+}
+
+.img{
+    border: 2px solid black;
+    width: 100px;
+}

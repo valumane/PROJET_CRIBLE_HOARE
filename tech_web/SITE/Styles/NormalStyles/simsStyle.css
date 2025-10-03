@@ -1,0 +1,26 @@
+body{
+    background: url("../../Images/simsBack.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+
+}
+p{
+    font: 24px/1 sans-serif;
+} 
+
+a {
+    display: inline-block;
+    color: #2a2a2a;
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+ul.link_nav{
+    padding-right: 10px;
+    padding-left: 0;
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link_nav {
+    display: flex;
+    justify-content: space-between;
+}

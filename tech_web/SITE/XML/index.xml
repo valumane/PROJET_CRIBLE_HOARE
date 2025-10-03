@@ -1,0 +1,188 @@
+<Listgames>
+<games id="mario">
+  <name>mario</name>
+  <description>
+    <paragraphe>
+      <texte> mario est un jeux de plateform 2d crée par </texte>
+      <creator><nom>miyamoto</nom><prenom>shigeru</prenom></creator>
+      <years>en 1985</years>
+      <goals> le but du jeu est de traversé un monde avec des pieges et des monstres pour delivré la princesse peach du mechant bowser </goals>
+    </paragraphe>
+  </description>
+  <nbVente> avec 680 millions de ventes</nbVente>
+  <placeIntop>il est 1er </placeIntop>
+  <editor>nintendo</editor>
+  <website url="mario.nintendo.com">site</website>
+</games>
+<games id="tetris">
+    <name>tetris</name>
+    <description>
+      <paragraphe>
+        <texte>tetris est un jeux de puzzle concu par </texte>
+        <creator>
+          <nom>pajitnov</nom>
+          <prenom>Aleksei</prenom>
+        </creator>
+        <years>en 1984</years>
+        <goals>le but est d'alligné les formes pour pouvoir completé des lignes et ainsi avoir le meilleur score</goals>
+      </paragraphe>
+    </description>
+    <nbVente>avec 496.4 millions de ventes </nbVente>
+    <placeIntop> il se place 2eme </placeIntop>
+    <editor> </editor>
+    <website url="tetris.com"> site web</website>
+  </games>
+<games id="call_of_duty">
+    <name>call of duty</name>
+    <description>
+      <paragraphe>
+        <texte>call of duty est une licence de jeu de tir a la 1er personne </texte>
+        <creator>
+          <nom> </nom>
+          <prenom> </prenom>
+        </creator>
+        <years>2003 </years>
+        <goals>le but est d'eliminé le plus d'ennemie possible tout en restant en vie
+          les jeux COD comprennent egalement un mode histoire ou vous pouvez evoluez dans un scenarios fictifs comme Modern Warfare, ou d'en de vrai
+          evenement historique comme d'en World War 2</goals>
+      </paragraphe>
+    </description>
+    <nbVente>400 millions </nbVente>
+    <placeIntop> 3 </placeIntop>
+    <editor>activision</editor>
+    <website url="www.callofduty.com"> </website>
+  </games>
+<games id="pokemon">
+  <name>pokemon</name>
+  <description>
+    <paragraphe>
+      <texte>pokemon est un jeu de collecte d'animaux fantastique</texte>
+      <creator>
+        <nom> </nom>
+        <prenom> </prenom>
+      </creator>
+      <years> 1996 </years>
+      <goals> le but est de capturé les meilleurs pokemon, pour ensuite combattre d'autre pokemon dans des arenes
+      pour devenir le meilleur dresseur pokemon
+      </goals>
+    </paragraphe>
+  </description>
+  <nbVente>386</nbVente>
+  <placeIntop>4</placeIntop>
+  <editor>game freak / pokemon company / nintendo </editor>
+  <website url="pokemon.com"> </website>
+</games>
+<games id="gta">
+    <name>Grand Theft auto</name>
+    <description>
+      <paragraphe>
+        <texte>Grand Theft auto est un jeu a monde ouvert ou l'on incarne un gangster</texte>
+        <creator>
+          <nom>jones</nom>
+          <prenom>david</prenom>
+        </creator>
+        <creator>
+          <nom>dailly</nom>
+          <prenom>mike</prenom>
+        </creator>
+        <years>1997</years>
+        <goals>le but principale est de faire des missions de vol et de braquage de banque pour etre le plus riche</goals>
+      </paragraphe>
+    </description>
+    <nbVente>355 millions </nbVente>
+    <placeIntop>5</placeIntop>
+    <editor>rockstar games</editor>
+    <website url="rockstargames.com/grandtheftauto/"> </website>
+  </games>
+<games id="FIFA">
+    <name>FIFA</name>
+    <description>
+      <paragraphe>
+        <texte>fifa est un jeux videos dans l'esprit du football</texte>
+        <creator>
+          <nom> </nom>
+          <prenom> </prenom>
+        </creator>
+        <years>1993</years>
+        <goals>le but est de composé la meilleur equipe de football pour remporté le plus de matchs possible</goals>
+      </paragraphe>
+    </description>
+    <nbVente>325 millions</nbVente>
+    <placeIntop>6</placeIntop>
+    <editor>Electronic Arts</editor>
+    <website url="www.easports.com/fifa"> </website>
+  </games>
+<games id="minecraft">
+    <name>minecraft</name>
+    <description>
+      <paragraphe>
+        <texte>minecraft est un jeux d'aventure a monde ouvert</texte>
+        <creator>
+          <nom>persson</nom>
+          <prenom>markus</prenom>
+        </creator>
+        <years>2009</years>
+        <goals>le but est de se crée sont propre equipement en explorant le monde, pour vaincre "l'ender dragon"</goals>
+      </paragraphe>
+    </description>
+    <nbVente>238 millions </nbVente>
+    <placeIntop>7</placeIntop>
+    <editor>Mojang studios</editor>
+    <website url="minecraft.net"> </website>
+  </games>
+<games id="les_sims">
+    <name>Les Sims</name>
+    <description>
+      <paragraphe>
+        <texte>les sims est un jeu de simulations de personnages</texte>
+        <creator>
+          <nom> </nom>
+          <prenom> </prenom>
+        </creator>
+        <years> 2000</years>
+        <goals>le but est de crée vos personnage (appellé sims),les faires travaillé, leurs construire leur maisons, tout en les gardants en vie le plus longtemps possible</goals>
+      </paragraphe>
+    </description>
+    <nbVente>200 millions</nbVente>
+    <placeIntop>8</placeIntop>
+    <editor>Electronic Arts</editor>
+    <website url="www.thesims.com"> </website>
+  </games>
+<games id="WII">
+    <name>Wii</name>
+    <description>
+      <paragraphe>
+        <texte>la licence Wii comprend plusieurs jeux concu exclusivement pour la console du meme nom</texte>
+        <creator>
+          <nom> </nom>
+          <prenom> </prenom>
+        </creator>
+        <years> 2012 </years>
+        <goals> </goals>
+      </paragraphe>
+    </description>
+    <nbVente>197,7 millions </nbVente>
+    <placeIntop>9</placeIntop>
+    <editor>Nintendo</editor>
+    <website url=" "> </website>
+  </games>
+<games id="final_fantasy">
+  <name>Final fantasy</name>
+  <description>
+    <paragraphe>
+      <texte>Final fantasy est une licence de jeux d'aventure fantastique</texte>
+      <creator>
+        <nom>sakaguchi</nom>
+        <prenom>hironobu</prenom>
+      </creator>
+      <years>1987</years>
+      <goals> </goals>
+    </paragraphe>
+  </description>
+  <nbVente>159</nbVente>
+  <placeIntop>10</placeIntop>
+  <editor>Square Enix</editor>
+  <website url=" "> </website>
+</games>
+
+</Listgames>

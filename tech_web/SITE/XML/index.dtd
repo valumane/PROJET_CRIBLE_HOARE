@@ -1,0 +1,31 @@
+<!ELEMENT Listgames (games+)>
+
+<!ELEMENT games (name,description,nbVente,placeIntop,editor?,website?,image?)>
+<!ATTLIST games id ID  #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+
+<!-- description -->
+        <!ELEMENT description (paragraphe)>
+            <!ELEMENT paragraphe (#PCDATA,creator,years,goals)>
+                <!ELEMENT creator (nom,prenom)>
+                    <!ELEMENT nom (#PCDATA)>
+                    <!ELEMENT prenom (#PCDATA)>
+                <!ELEMENT years (#PCDATA)>
+                <!ELEMENT goals (#PCDATA)>
+<!-- description -->
+
+<!ELEMENT nbVente (#PCDATA)>
+<!ELEMENT placeIntop (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+
+<!-- web site -->
+<!ELEMENT website (#PCDATA)>
+    <!ATTLIST website url CDATA #REQUIRED>
+<!-- web site -->
+
+<!-- image -->
+<!ELEMENT image (#PCDATA)>
+    <!ATTLIST image source CDATA #REQUIRED
+                       ALT CDATA #REQUIRED>
+<!-- image -->

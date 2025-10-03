@@ -1,0 +1,37 @@
+body {
+    background: url("../../Images/pokemonBack.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+}
+p {
+
+    font-size : 25px ;
+}
+
+
+img {
+    float: right;
+    right:180px;
+    width: 300px ;
+    border: 1mm ridge #de0404;
+    opacity:70%;
+    transition: width 1.5s, opacity 1.5s;
+}
+img:hover{
+    width:490px;
+    opacity: 100%;
+}
+
+a {
+    color: white;
+    font: small-caps bold 24px/1 sans-serif;
+}
+ul.link_nav{
+    padding-right: 10px;
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link_nav {
+    display: flex;
+    justify-content: space-between;
+}

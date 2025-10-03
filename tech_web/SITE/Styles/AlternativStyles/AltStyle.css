@@ -1,0 +1,225 @@
+/*******/
+/*index*/
+/*******/
+
+h1#index{
+    font-size: 50px;
+    text-align: center;
+}
+p#presentation{
+    text-align: center;
+    font-size: 24px;
+}
+p#info{
+font-size: 15px;
+}
+
+input#date{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+img{
+    width : 400px;
+    margin-bottom:-5px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+}
+
+table,td{
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+div#bottomLayer{
+    border: 3px solid grey;
+    font: small-caps bold 24px/1 sans-serif;
+    height: 70px;
+    background-color:rgb(240, 248, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+#a,#b,#c{padding: 20px}
+
+/************/
+/*FORMULAIRE*/
+/************/
+#reponses,.hidden,#r{
+    display: none;
+}
+div#resume{
+    float:right;
+}
+
+/**********/
+/*generale*/
+/**********/
+.button{
+    width: 160px;
+    height: 40px
+}
+
+video {
+    width: 307px;
+    border-bottom: 3px solid black;
+}
+strong.demo{
+    color: black;
+}
+div.demo {
+    float: right;
+    border: 2px solid black;
+}
+
+
+div#bottomLayer{
+    border: 3px solid grey;
+    border-radius: 3%;
+    margin-top: 10px;
+    font: small-caps bold 24px/1 sans-serif;
+    height: 70px;
+    background-color:rgb(240, 248, 255);
+}
+ol{
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+a{
+    display: inline-block;
+    font: small-caps bold 24px/1 sans-serif;
+}
+ul.link_nav{
+    padding-right: 10px;
+    padding-left: 0;
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 0);
+    margin: 0;
+}
+.link_nav {
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font: 24px/1 sans-serif;
+}
+
+/**********/
+/*synoptic*/
+/**********/
+table,td,th {
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse
+}
+img.synoptic{
+    width: 200px;
+}
+td {
+    text-align: center;
+}
+
+/**********/
+/*site map*/
+/**********/
+.img{
+    border: 2px solid black;
+    width: 100px;
+}
+ul.sitemapListe{
+    margin-top: -20px;
+    font: small-caps bold 24px/1 sans-serif;
+}
+h1#sitemap {
+    font-size: 40px;
+    color : #6c0808;
+}
+
+
+/***********/
+/*minecraft*/
+/***********/
+.minecraftBackground{
+    display: none;
+}
+p {
+    padding-left: 10px;
+    font: 24px/1 sans-serif;
+}
+
+.content{
+    top: 0;
+}
+a {
+    display: inline-block;
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+ul.link_nav{
+    padding-top: 300px;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.link_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hover-title {
+    text-decoration: underline;
+    font-size: 24px;
+    color: blueviolet;
+}
+    
+.hover-image {
+    display: none;
+    width: 400px;
+}
+body:not(.mobile) .hover-title:hover + .hover-image {
+    display: initial;
+}
+
+.hover-image img{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+/*****/
+/*GTA*/
+/*****/
+
+img.gtaMap{
+    position:static;
+    width: 300px;
+    border: 1mm solid black;
+    transition: width 1s;
+}
+img.gtaMap:hover{
+    width:700px;
+}
+
+/*****/
+/*COD*/
+/*****/
+video.cod{
+    display:none
+}
+
+/*********/
+/*POKEMON*/
+/*********/
+img#pokeMap{
+    width: 300px;
+    float: right;
+    border-top: rgba(0, 0, 0, 0);
+    border: 1mm solid black;
+    transition: width 1s;
+}
+img#pokeMap:hover{
+    width:700px;
+}

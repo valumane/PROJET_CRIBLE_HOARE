@@ -1,0 +1,46 @@
+body{
+    background: url('../../Images/gtaBack.jpg') center center fixed no-repeat;
+    background-size: 100% 100%;
+}
+p {
+    font: 24px/1 sans-serif;
+}
+#blur{
+    background-color: #0000004b;
+    border-radius: 2%;
+    border-style:solid ;
+    border-width: 2px;
+    border-color: #00000041;
+}
+img{
+    position:static;
+    width: 300px;
+    border: 1mm ridge #de0404;
+    opacity:70%;
+    transition: width 3s, opacity 1.5s;
+      
+}
+img:hover{
+    width:700px;
+    opacity: 100%;
+}
+
+a {
+    color: white;
+    font: small-caps bold 24px/1 sans-serif;
+}
+ul.link_nav{
+    padding-right: 10px;
+    padding-left: 0;
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 0);
+
+}
+.link_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#blur{
+background-color: rgba(251, 255, 255, 0.37);
+}

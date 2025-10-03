@@ -1,0 +1,28 @@
+p {
+    color:aliceblue;
+    font: 24px/1 sans-serif;
+}
+#myVideo {
+        z-index: -1;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+}
+
+a {
+    color: white;
+    font: small-caps bold 24px/1 sans-serif;
+}
+ul.link_nav{
+    padding-right: 10px;
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
