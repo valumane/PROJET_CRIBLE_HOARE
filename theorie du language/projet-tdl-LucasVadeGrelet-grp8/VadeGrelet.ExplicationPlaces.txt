@@ -1,0 +1,23 @@
+le commandeBillet.txt est de la forme : 
+dossier codeDossier RC
+prenomNom RC
+codeConcert nomConcert date heure nb places RC
+codeConcert nomConcert date heure nb places RC
+codeConcert nomConcert date heure nb places RC
+FinFichier
+
+donc pour rajouter les numeros de places on peut ajouter une ligne apres la ligne de concert
+pour rajouter la ligne de numero de places
+ce qui ressemblerait a :
+
+DOSSIER 12345678 
+ANNE-CLAIRE/BERGEY
+T1114 LES-CHATS-SAUVAGES  14/04/18   19:30 2 places 
+	6 - 7
+T1239 LES-12-HEURES       17/1       12:30 4 places 
+	21 - 22 - 23 - 24
+T32   CAROTTES            22/4/18    18:30 11 places 
+	10 - 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20
+
+pour sa apres le rc de fin de ligne concert on detecte [0-9]+ separé d'un tiret et enfin de ligne un rc
+ensuite on repars sur une autre ligne de concert
