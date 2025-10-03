@@ -1,0 +1,51 @@
+creation de sous dossier pour simplifier l'utilisation 
+outils pour les outils
+fuite pour tout ce qui est depensetout01/02 slogram01/02 et tetedamis01/02
+mergep1 pour les depensetout, slogram et tetedamis, crée pendant la partie3
+( a voir si c vraiment utilie ou si c une perte de temps )
+
+
+partie 3 qui prenait 1h45 a s'executer on la modif pour qu'elle s'execute en >2min
+
+
+
+
+change is_element_in_db : debase avec List.exists ( test avec le dernier element de depensetout01 )
+change unique_list : debase avec List.fold_left
+temps d'execution de unique_list avec exists et fold_left :
+<1 sec
+puis 1.9 -> 1.5 -> désormais a environ 1.4
+
+j'ai laissé lst = [] dans la condition d'arret car cet verification ne prend qu'une unité
+alors que si j'appelle db_isempty(lst) elle en prendrait 3a4 unité
+pas notifiable sauf quand la fonction unique_list est appellé sur les listes de taille 7024 + 10157 + 9176 + 10320 + 9711 + 8977 = 55465 
+en tout lst = [] vaut 55465 unité, alors que si j'appelle db_isempty, la verification prendra 3 a 4x plus de temps
+
+
+changement find_login_index : debase en iteratif avec List.iter, modifié en recursifsans changer le temps d'execution
+
+changement extract_logins : debase en utilisant List.map temps executions <0.01, puis en iteratif, temps exec ~0.5, enfin en rec temps exec < 0.01
+
+(* a mettre tes changement de la partie 3 dedans *)
+changement de la fonction associated_logins -> creation de la fonction search pour alléger la fonction et garder le code modulaire.
+pareillement, création de la fonction verif_in.
+
+changement des tests pour comparer en = true le resultat attendue a la fin de chaque test
+
+changement  check_occurence_of_login : iteratif vers recursif : tout aussi long nonobstant... ( 70sec )
+
+(--)
+
+partie 4 :
+ajout read_mdp_from_file dans tools.ml pour lire le fichier french_password_20000.txt
+
+
+debase pour la partie1 on voulait trier puis faire notre truc, on penser que ce serait plus rapide, au final sa a pas fait grand chose
+
+main.ml crée pour listé comment executer le tout
+rangement par fichier et partie
+prototypage partie4 restante
+testp1 et p2 fait
+manque plus que p3 et p4
+
+
