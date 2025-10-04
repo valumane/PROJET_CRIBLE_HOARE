@@ -1,6 +1,6 @@
 ============================================================
 Mini-projet Lex/Yacc – L2 Info 2024-2025
-Monôme : Vade Grelet Lucas
+Monôme : Lucas
 ============================================================
 
 1. Contenu de l’archive
@@ -12,9 +12,9 @@ Exo.2.2.lex/yacc     # validation + total de places
 Exo.2.3.lex/yacc     # version « n° de places »  
 Makefile             # tout compiler / tester / nettoyer  
 commandeBillet.txt   # jeu d’essai pour Exo 1.x et 2.1–2.2  
-VadeGrelet.*         # jeu d’essai pour Exo 2.3  
-VadeGrelet.ExplicationPlaces.txt   # explication des choix de syntaxe pour les n° de place  
-VadeGrelet.exempleCommande.txt     # exemple conforme à cette syntaxe  
+Lucas.*         # jeu d’essai pour Exo 2.3  
+Lucas.ExplicationPlaces.txt   # explication des choix de syntaxe pour les n° de place  
+Lucas.exempleCommande.txt     # exemple conforme à cette syntaxe  
 README.txt (ce fichier)
 
 

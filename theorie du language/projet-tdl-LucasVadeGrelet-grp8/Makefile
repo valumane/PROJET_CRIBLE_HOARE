@@ -53,7 +53,7 @@ all : 1.1 1.2 2.1 2.2 2.3
 		cc y.tab.c lex.yy.c -o $(FILE5).out -ly -ll
 		@echo "$(FILE5) compilé -> ./$(FILE5).out"
 		@printf "\e[33m->\e[0m "
-		cat VadeGrelet.exempleCommande.txt | ./$(FILE5).out
+		cat Lucas.exempleCommande.txt | ./$(FILE5).out
 		@echo "\e[36m=============\e[0m"
 
 clean:
