@@ -1,0 +1,52 @@
+Manuel d’utilisation
+
+Emplacement du projet
+Le projet se trouve dans le dossier :
+
+CODE/meep_meep
+
+Il faut donc d’abord se placer dans ce dossier avant toute commande.
+
+Exemple :
+cd CODE/meep_meep
+
+Prérequis
+Le projet a été développé en Java et utilise JavaFX pour l’interface graphique.
+Pour le compiler et l’exécuter, il faut donc disposer :
+- d’un JDK installé
+- de JavaFX installé sur la machine
+
+Sous Linux, le chemin JavaFX utilisé dans notre configuration est :
+/usr/share/openjfx/lib
+
+Compilation
+Depuis le dossier CODE/meep_meep, lancer :
+make compile
+
+Les fichiers compilés seront placés dans le dossier out.
+
+Exécution
+Plusieurs modes de lancement sont disponibles.
+
+1. Mode console
+make run
+
+2. Interface graphique avec menu principal
+make gui
+
+3. Interface graphique avec lancement direct d’une partie aléatoire
+make random
+
+Nettoyage
+Pour supprimer les fichiers compilés :
+make clean
+
+Génération de la documentation
+La commande pour re-generer la document java :
+javadoc -d docs -sourcepath src -subpackages application:common:mvc
+
+Remarques
+- le projet peut être utilisé sans IDE
+- la compilation et l’exécution se font en ligne de commande
+- le menu principal permet de lancer une nouvelle partie, d’accéder aux paramètres et à l’éditeur de niveau
+- l’exécutable console permet de tester le jeu sous une forme plus simple
