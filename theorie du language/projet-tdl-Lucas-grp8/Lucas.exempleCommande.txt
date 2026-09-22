@@ -1,8 +1,0 @@
-DOSSIER 12345678 
-ANNE-CLAIRE/BERGEY
-T1114 LES-CHATS-SAUVAGES  14/04/25   22:30 2 places 
-	6 - 7
-T1239 LES-12-HEURES       17/1       12:30 4 places 
-	21 - 22 - 23 - 24
-T32   CAROTTES            22/4/25    18:30 11 places 
-	10 - 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20

@@ -1,1 +1,0 @@
-sous dossier pour l'algo-prog en ocaml
